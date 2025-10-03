@@ -1,0 +1,28 @@
+# Composer
+/vendor/
+composer.lock
+
+# Google Cloud Credentials
+/storage/*.json
+/storage/google-credentials.json
+
+# Environment
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+/analytics/data/*
+!/analytics/data/.gitkeep
+
+# Logs
+*.log
+
